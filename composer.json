@@ -12,6 +12,7 @@
     "license": "GPL-2.0-or-later",
     "require": {
         "typo3/cms-core": ">=7",
+        "php": ">=7"
     },
     "replace": {
         "nc_staticfilecache": "self.version"
