@@ -1,0 +1,24 @@
+{
+    "name": "pengmaradi/nc-staticfilecache",
+    "type": "typo3-cms-extension",
+    "version": "4.0.0",
+    "description": "Static File Cache\n\nTransparent static file cache solution using mod_rewrite and mod_expires. Increase response times for static pages by a factor of 230!!",
+    "authors": [
+        {
+            "name": "Static File Cache team",
+            "role": "Product Owner"
+        }
+    ],
+    "license": "GPL-2.0-or-later",
+    "require": {
+        "typo3/cms-core": ">=7",
+    },
+    "replace": {
+        "nc_staticfilecache": "self.version"
+    },
+    "autoload": {
+        "psr-4": {
+            "SFC\\NcStaticfilecache\\": "Classes/"
+        }
+    }
+}
